@@ -54,7 +54,7 @@ const CardForm = () => {
 							formProps={formProps}
 							label="exp. date"
 							placeholder="MM"
-							className="w-[73px]"
+							className="w-[74px]"
 							onKeyUp={(e) => dispatch(setMonth(e.target.value))}
 						/>
 						<Input
@@ -62,7 +62,7 @@ const CardForm = () => {
 							type="text"
 							formProps={formProps}
 							label="(mm/yy)"
-							className="w-[73px]"
+							className="w-[74px]"
 							placeholder="YY"
 							onKeyUp={(e) => dispatch(setYear(e.target.value))}
 						/>
