@@ -23,9 +23,9 @@ const CreditCard = () => {
 						src={cardLogo}
 						className="absolute h-[30px] w-[54px] lg:h-[47px] lg:w-[84px] left-5 top-[18px]"
 					/>
-					<div className="absolute w-[239px] lg:w-[343px] h-[23px] left-[6.99%] top-[calc(50%_-_23px/2_+_18px)] ">
+					<div className="absolute w-[239px] lg:w-[353px] h-[23px] left-[6.99%] top-[calc(50%_-_23px/2_+_18px)] ">
 						<p className="font-spaceGrotesk font-medium text-lg lg:text-[24px] xl:text-[28px] tracking-[2.2px] text-white">
-							{cardNumber || '0000 0000 0000 000'}
+							{cardNumber || '0000 0000 0000 0000'}
 						</p>
 					</div>
 					<div className="absolute flex justify-between w-[245px] lg:w-[323px] xl:w-[383px] left-[6.99%] top-[77%] font-spaceGrotesk font-medium text-[9px] lg:text-[14px] uppercase text-white">

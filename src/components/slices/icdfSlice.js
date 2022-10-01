@@ -24,7 +24,21 @@ const icdfSlice = createSlice({
 			state.cvc = actions.payload;
 		},
 		setCardNumber: (state, actions) => {
-			state.cardNumber = actions.payload;
+			const numbers = actions.payload;
+			const tmp = [0, 0, 0, 0, ' ', 0, 0, 0, 0, ' ', 0, 0, 0, 0, ' ', 0, 0, 0, 0];
+			let nIndex = 0;
+			const array = tmp.map((i) => {
+				let number = i;
+				if (i === ' ') {
+					return i;
+				}
+				if (numbers[nIndex]) {
+					number = numbers[nIndex];
+					nIndex += 1;
+				}
+				return number;
+			});
+			state.cardNumber = array.join('');
 		},
 		setApproved: (state, actions) => {
 			state.approved = actions.payload;
