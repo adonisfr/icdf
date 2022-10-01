@@ -9,7 +9,7 @@ const CreditCard = () => {
 	const cardNumber = useSelector((state) => state.icdf.cardNumber);
 
 	return (
-		<div className="h-60 md:h-72 lg:h-screen lg:w-5/12 xl:w-[37%] bg-cover bg-[url('./assets/bg-main-mobile.png')] lg:bg-[url('./assets/bg-main-desktop.png')]">
+		<div className="h-60 md:h-72 lg:h-screen lg:w-[40vw] xl:w-[50vw] 2xl:w-[40vw] bg-cover bg-[url('./assets/bg-main-mobile.png')] lg:bg-[url('./assets/bg-main-desktop.png')]">
 			<div className="absolute  h-[247px] md:h-[295px] lg:h-[467px] xl:h-[527px]  w-[90%] lg:w-[541px] left-[5%] lg:left-[10%]  top-8 lg:top-[calc((100vh-527px)/2)] ">
 				<div className="absolute lg:bottom-0 right-0 h-[157px] md:h-[177px] lg:h-[212px] xl:h-[245px] w-72 md:w-80 lg:w-[387px] xl:w-[447px] bg-cover bg-[url('./assets/bg-card-back.png')]">
 					<div className="absolute flex justify-end right-[28px] lg:right-[40px]  bottom-[62px] md:bottom-[73px] lg:bottom-[89px] xl:bottom-[105px] pr-1  w-[230.98px] h-[29.74px] ">

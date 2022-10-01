@@ -25,7 +25,7 @@ const CardForm = () => {
 		>
 			{(formProps) => (
 				<Form>
-					<div className="mb-4">
+					<div className="mb-5">
 						<Input
 							name="name"
 							type="text"
@@ -36,7 +36,7 @@ const CardForm = () => {
 						/>
 						<ErrorMsg name="name" />
 					</div>
-					<div className="mb-4">
+					<div className="mb-5">
 						<Input
 							name="cardNumber"
 							type="text"
@@ -84,7 +84,7 @@ const CardForm = () => {
 					</div>
 					<button
 						type="submit"
-						className="w-full h-[53px] mt-4 rounded-lg font-spaceGrotesk text-lg text-white "
+						className="w-full h-[53px] mt-8 rounded-lg font-spaceGrotesk text-lg text-white "
 						style={{ background: 'hsl(278, 68%, 11%)' }}
 					>
 						Confirm
